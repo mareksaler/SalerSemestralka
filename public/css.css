@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url("../public/img/pozadie.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    min-height: 100%;
+    overflow: visible;
+    padding-bottom:60px;
+    margin-top: 50px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner {
+    max-height: 500px;
+    max-width: 1140px;
+}
+
+.container-fluid {
+    max-height: 500px;
+}
+
+.zoom a {
+    text-decoration: none;
+    color: white;
+}
+
+.imgSlider {
+    max-height: 500px;
+    max-width: 1140px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.kontajner {
+    max-height: 500px;
+}
+
+.pata {
+    z-index: 1;
+}
+
+.cierna {
+    background-color: #21252b;
+}
+
+.textStred {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(33, 37, 43, 0.6);
+}
+
+.imgText {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.citat {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.top {
+    margin-top: 50px;
+}
+
+.page-footer {
+    position: relative;
+    clear:both;
+    background-color: #141516;
+}
+
+.table {
+    margin-top: 50px;
+}
+
+.stred {
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 280px;
+    height: 230px;
+    overflow: auto;
+}
+
+.karta {
+    width:320px;
+    height: 500px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
